@@ -1,12 +1,20 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "demoDevopsDay",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "demoGit",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "54.0",
+    "packageAliases": {
+        "demoDevopsDay": "0Ho6F000000fxkZSAQ",
+        "demoDevopsDay@0.1.0-1": "04t6F0000041804QAA",
+        "demoDevopsDay@0.1.0-2": "04t6F0000041809QAA"
     }
-  ],
-  "name": "demoGit",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "54.0"
 }
